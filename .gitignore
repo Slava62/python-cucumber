@@ -4,3 +4,4 @@ my_report/*
 allure-report/*
 venv/*
 features/__pycache__/*
+pages/__pycache__/*
