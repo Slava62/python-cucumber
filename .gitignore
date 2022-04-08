@@ -1,5 +1,6 @@
 .iml
 .vscode
 my_report/*
+allure-report/*
 venv/*
 features/__pycache__/*
