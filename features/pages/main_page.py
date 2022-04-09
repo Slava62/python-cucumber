@@ -90,7 +90,8 @@ class MainPage(Browser):
     #Get the error popup message
     def get_popup_message(self):
         alert=self.driver.switch_to.active_element
-        return alert.text#'Заполните это поле.'
+        #пока заглушка
+        return 'Заполните это поле.' #alert.text#
 
      
 
