@@ -14,7 +14,7 @@ class MainPageElements(object):
 
     SEARCH_BUTTON='.header__menu--search'
     SEARCH_FIELD='form input'
-    SEARCH_FORM_BUTTON='button'
+    SEARCH_FORM_BUTTON='button span'
     SEARCH_RESULT='.search-result'
     SEARCH_RESULT_ITEMS='a h2'
     SEARCH_RESULT_MESSAGE='main h1'

@@ -10,8 +10,8 @@ class Browser(object):
     chrome_options.add_argument("--start-maximized")
     chromedriver_autoinstaller.install()
     driver = webdriver.Chrome(options=chrome_options) #'C:/ChromeDriver/chromedriver.exe',
-    driver.implicitly_wait(30)
-    driver.set_page_load_timeout(30)
+    driver.implicitly_wait(50)
+    driver.set_page_load_timeout(50)
 
     def close(self):
         self.driver.close()
